@@ -1,0 +1,26 @@
+.navbar {
+    width: 100%;
+    padding: 20px;
+    border-bottom: 1px solid rgba(186, 186, 186, 0.253);
+    position: fixed;
+    backdrop-filter: blur(8px);
+    z-index: 10;
+}
+
+.navbar .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+}
+
+.navbar span {
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+}

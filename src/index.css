@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lexend Deca';
+}
+
+@font-face {
+    font-family: 'Lexend Deca';
+    src: url('./assets/fonts/LexendDeca-Regular.woff2') format('woff2'),
+        url('./assets/fonts/LexendDeca-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lexend Deca';
+    src: url('./assets/fonts/LexendDeca-SemiBold.woff2') format('woff2'),
+        url('./assets/fonts/LexendDeca-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lexend Deca';
+    src: url('./assets/fonts/LexendDeca-Medium.woff2') format('woff2'),
+        url('./assets/fonts/LexendDeca-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
