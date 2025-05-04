@@ -6,7 +6,7 @@ import Loading from './components/loading/Loading';
 
 function App() {
   const [cars, setCars] = useState([]);
-  const [limit] = useState(6);
+  const [limit] = useState(9);
   const [skip, setSkip] = useState(0);
   const [loading, setLoading] = useState(false);
   const [showButton, setShowButton] = useState(true);

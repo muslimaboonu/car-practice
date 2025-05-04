@@ -41,7 +41,7 @@ export default function Cars({ cars, setCars, limit, skip, addCars, setLoading, 
                         })
                     }
                 </div>
-                {showButton ? cars.length === 28 ? "" : <button onClick={() => addCars()}>More shows 6</button> : ""}
+                {showButton ? cars.length === 28 ? "" : <button onClick={() => addCars()}>More shows 9</button> : ""}
             </div>
         </div>
     )
